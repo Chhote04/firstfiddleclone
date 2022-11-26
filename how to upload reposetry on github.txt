@@ -1,0 +1,255 @@
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/web development/addmitionform
+$ git config --global user.name "Chhote Lal Jatav"
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/web development/addmitionform
+$ git config --global user.email "chhotelaljatav143@gmail.com"
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/web development/addmitionform
+$ touch .gitignore
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/web development/addmitionform
+$ git init
+Initialized empty Git repository in E:/web development/addmitionform/.git/
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/web development/addmitionform (master)
+$ got add .
+bash: got: command not found
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/web development/addmitionform (master)
+$ got add.
+bash: got: command not found
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/web development/addmitionform (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/web development/addmitionform (master)
+$ git add .
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/web development/addmitionform (master)
+$ git commit -m "Intial commit"
+[master (root-commit) 04672d7] Intial commit
+ 52 files changed, 2759 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 admin/admin.php
+ create mode 100644 admin/delete.php
+ create mode 100644 admin/display_DB.php
+ create mode 100644 admin/service_charge.php
+ create mode 100644 admin/status_update.php
+ create mode 100644 admin_header.php
+ create mode 100644 dbcon.php
+ create mode 100644 footer.php
+ create mode 100644 image/2018-Kawasaki-Ninja-H2R1.jpg
+ create mode 100644 image/R.jpg
+ create mode 100644 image/R.png
+ create mode 100644 image/SR.png
+ create mode 100644 image/The-Complete-BMW-Motorcycle-Buying-Guide-gear-patrol-lead-full.jpg
+ create mode 100644 image/ib1.jpg
+ create mode 100644 image/ib2.jpg
+ create mode 100644 image/ib3.jpg
+ create mode 100644 image/mc.jpg
+ create mode 100644 image/triumph-banner.jpg
+ create mode 100644 index.php
+ create mode 100644 insert_rg.php
+ create mode 100644 lg_check.php
+ create mode 100644 logout.php
+ create mode 100644 mob.css
+ create mode 100644 raw files/ad_header.php
+ create mode 100644 raw files/all_sr.php
+ create mode 100644 raw files/class.php
+ create mode 100644 raw files/construtor.php
+ create mode 100644 raw files/dashboard.php
+ create mode 100644 raw files/delete_rg.php
+ create mode 100644 raw files/display_rg.php
+ create mode 100644 raw files/edit_rg.php
+ create mode 100644 raw files/header.php
+ create mode 100644 raw files/index1.php
+ create mode 100644 raw files/inheritence.php
+ create mode 100644 raw files/login.php
+ create mode 100644 raw files/logoutad.php
+ create mode 100644 raw files/new.php
+ create mode 100644 raw files/owner_admin.php
+ create mode 100644 raw files/ragister.php
+ create mode 100644 raw files/rawmaterial.html
+ create mode 100644 raw files/update_rg.php
+ create mode 100644 session.php
+ create mode 100644 style.css
+ create mode 100644 user/admin.php
+ create mode 100644 user/db.php
+ create mode 100644 user/display_DB.php
+ create mode 100644 user/edit_DB.php
+ create mode 100644 user/feedback.php
+ create mode 100644 user/insert_DB.php
+ create mode 100644 user/update_DB.php
+ create mode 100644 user/view_DB.php
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/web development/addmitionform (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/web development/addmitionform (master)
+$ git remote add origin git@github.com:Chhote04/ServiceRec.git
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/web development/addmitionform (master)
+$ git push origin master
+Enumerating objects: 58, done.
+Counting objects: 100% (58/58), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (57/57), done.
+Writing objects: 100% (58/58), 2.96 MiB | 1.61 MiB/s, done.
+Total 58 (delta 14), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (14/14), done.
+To github.com:Chhote04/ServiceRec.git
+ * [new branch]      master -> master
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/web development/addmitionform (master)
+$
+
+
+
+second project 
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/Web Designing Projects/firstfiddle clone
+$ git config --global user.name chhote
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/Web Designing Projects/firstfiddle clone
+$ git config --global user.email "chhotelaljatav143@gmail.com"
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/Web Designing Projects/firstfiddle clone
+$ touch .gitignore
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/Web Designing Projects/firstfiddle clone
+$ git init
+Initialized empty Git repository in E:/Web Designing Projects/firstfiddle clone/.git/
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/Web Designing Projects/firstfiddle clone (master)
+$ git add .
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/Web Designing Projects/firstfiddle clone (master)
+$ git commit -m "Initial commit"
+[master (root-commit) 95817a4] Initial commit
+ 92 files changed, 2880 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 banner.html
+ create mode 100644 class recording/Bootsprep 30.12.2021_17.20.24_REC.mp4
+ create mode 100644 css/first fidle.css
+ create mode 100644 css/pninfo.css
+ create mode 100644 ff about.html
+ create mode 100644 ff brand.html
+ create mode 100644 ff carrir.html
+ create mode 100644 ff contect.html
+ create mode 100644 ff ourteam.html
+ create mode 100644 first fiddle.html
+ create mode 100644 images/Untitled-design-min.jpg
+ create mode 100644 images/about-mob.png
+ create mode 100644 images/banner-about (1).jpg
+ create mode 100644 images/banner-about.jpg
+ create mode 100644 images/banner-press-release.jpg
+ create mode 100644 images/bannerabout.jpg
+ create mode 100644 images/blob.jpeg
+ create mode 100644 images/brands-mob (1).png
+ create mode 100644 images/brands-mob.png
+ create mode 100644 images/brands.jpg
+ create mode 100644 images/career-mob.png
+ create mode 100644 images/collaborative.jpg
+ create mode 100644 images/contact-mob.png
+ create mode 100644 images/contact-new (1).jpg
+ create mode 100644 images/contact-new.jpg
+ create mode 100644 images/daddy-logo.jpg
+ create mode 100644 images/dedication.jpg
+ create mode 100644 images/diablo.jpg
+ create mode 100644 images/download.png
+ create mode 100644 images/dragonflybanner (1).jpeg
+ create mode 100644 images/dragonflybanner.jpeg
+ create mode 100644 images/et-prime.jpg
+ create mode 100644 images/ff-logo-02.png
+ create mode 100644 images/ffabout.png
+ create mode 100644 images/ffbanner.png
+ create mode 100644 images/gamebanner.jpg
+ create mode 100644 images/gd 1.png
+ create mode 100644 images/gd 2.png
+ create mode 100644 images/gd 3.png
+ create mode 100644 images/gd 4.png
+ create mode 100644 images/gd 5.png
+ create mode 100644 images/gd 6.png
+ create mode 100644 images/gd 7.png
+ create mode 100644 images/gd 8.png
+ create mode 100644 images/innovative-ideas.png
+ create mode 100644 images/jlwa.jpeg
+ create mode 100644 images/lazeezaffair.jpeg
+ create mode 100644 images/lies.jpg
+ create mode 100644 images/logo-02.jpg
+ create mode 100644 images/logo-700x466.png
+ create mode 100644 images/logo-for-mobile.png
+ create mode 100644 images/logo-resize-01-700x466.jpg
+ create mode 100644 images/logo-resize-02-1-700x466.jpg
+ create mode 100644 images/logo-resize-02-700x466.jpg
+ create mode 100644 images/logo-resize-03-1-700x466.jpg
+ create mode 100644 images/logo-resize-03-700x466.jpg
+ create mode 100644 images/logo-resize-06-700x466.jpg
+ create mode 100644 images/logo-resize-07-700x466.jpg
+ create mode 100644 images/lotd (1).jpeg
+ create mode 100644 images/lotd.jpeg
+ create mode 100644 images/miso.jpg
+ create mode 100644 images/ot B.R.-Sachdeva.jpg
+ create mode 100644 images/ot Dheeraj-Sachdeva.jpg
+ create mode 100644 images/ot Gaurav-Gupta.jpg
+ create mode 100644 images/ot Himmat-Rautela.jpg
+ create mode 100644 images/ot JAY-PHOTO-1-1.jpg
+ create mode 100644 images/ot Nidhi-sharma.jpg
+ create mode 100644 images/ot SachinBhatt.jpg
+ create mode 100644 images/ot Sagar-Bajaj.jpg
+ create mode 100644 images/ot YPAshok.jpg
+ create mode 100644 images/ot anuj.png
+ create mode 100644 images/ot deepak.jpg
+ create mode 100644 images/ot priyank-sukhija.jpg
+ create mode 100644 images/ot team-mob.png
+ create mode 100644 images/ot vibhutiPR.jpg
+ create mode 100644 images/our team  banner.jpg
+ create mode 100644 images/our-family.png
+ create mode 100644 images/outletbanner.png
+ create mode 100644 images/plum (1).jpeg
+ create mode 100644 images/plum.jpeg
+ create mode 100644 images/pr-mob (1).png
+ create mode 100644 images/pr-mob (2).png
+ create mode 100644 images/pr-mob.png
+ create mode 100644 images/priyank2.png
+ create mode 100644 images/rockystar.jpeg
+ create mode 100644 images/rpmlogo.jpg
+ create mode 100644 images/theflyingsaucercafe.jpeg
+ create mode 100644 pninfo.html
+ create mode 100644 pninfosys.zip
+ create mode 100644 press release.html
+ create mode 100644 slidiners.html
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/Web Designing Projects/firstfiddle clone (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/Web Designing Projects/firstfiddle clone (master)
+$ git remote add origin git@github.com:Chhote04/firstfiddleclone.git
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/Web Designing Projects/firstfiddle clone (master)
+$ git push origin master
+Enumerating objects: 91, done.
+Counting objects: 100% (91/91), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (90/90), done.
+Writing objects: 100% (91/91), 297.63 MiB | 2.57 MiB/s, done.
+Total 91 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), done.
+remote: error: Trace: 3e307fd1b737b402bd0c36c075d761159c4783e8d95238bde7b99c1d64d0b07a
+remote: error: See http://git.io/iEPt8g for more information.
+remote: error: File class recording/Bootsprep 30.12.2021_17.20.24_REC.mp4 is 290.65 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To github.com:Chhote04/firstfiddleclone.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'github.com:Chhote04/firstfiddleclone.git'
+
+DELL@DESKTOP-B1J8J2U MINGW64 /e/Web Designing Projects/firstfiddle clone (master)
